@@ -1,0 +1,67 @@
+body {
+    animation-name: cores;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;                                                                                                   
+}
+@keyframes cores {
+    0% { background: #06000b; }
+    25% { background: 	#110124; }
+    50% { background: 	#110124; }
+    75% { background: 	#110124; }
+    100% { background: #06000b; }
+}
+#container {
+    width: 780px;
+    margin: auto;
+    text-align: center;
+}
+h1, h2, p {
+    color: #14bfa3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button {
+    width: 256px;
+    height: 256px;
+    border: 1px solid #15e0aa;
+    border-radius: 25px;
+    filter: grayscale(50%);
+}
+button:hover{
+    filter: grayscale(0%);
+    box-shadow: 2px 2px #15e0aa;
+}
+#pedra {
+    background: url("2.png");
+    /*background-size: 100%;*/
+}
+#papel {
+    background: url("3.png");
+}
+#tesoura {
+    background: url("1.png");
+}
+.azul {
+    color: rgb(25, 197, 169);
+}
+.verde {
+    color: rgb(25, 202, 152);
+}
+.roxo {
+    color: rgb(25, 202, 152);
+}
+#mao{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.mPedra {
+    background: url("pedra.gif");
+}
+.mPapel {
+    background: url("papel.gif");
+}
+.mTesoura {
+    background: url("tesoura.gif");
+}

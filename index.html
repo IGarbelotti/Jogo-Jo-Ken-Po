@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jo-Ken-Pô</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div id="container">
+    <p>
+   YOU: <span id="youS">0</span> vs
+   CPU: <span id="cpuS">0</span>
+    </p>
+    <h1>Jo-Ken-Pô</h1>
+    <h2>Escolha a sua opção</h2>
+    <button onclick="jokenpo('pedra')" onmouseover="exibir('pedra')" onmouseout="limpar()" id="pedra"></button>
+    <button onclick="jokenpo('papel')" onmouseover="exibir('papel')" onmouseout="limpar()"  id="papel"></button>
+    <button onclick="jokenpo('tesoura')" onmouseover="exibir('tesoura')"onmouseout="limpar()"  id="tesoura"></button>
+    <p id="resultado"></p>
+    <p id="vencedor"></p>
+    <p id="mao"></p>
+</div>
+</body>
+</html>
